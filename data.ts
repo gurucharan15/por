@@ -7,6 +7,8 @@ import {
   FaRegListAlt,
   FaRegNewspaper,
   FaRegUser,
+  FaInstagram,
+  FaTwitter,
 } from "react-icons/fa"
 import { FiSend } from "react-icons/fi"
 import { MdComputer, MdDashboard } from "react-icons/md"
@@ -86,7 +88,7 @@ export const socialMedia: SocialMedia[] = [
     Icon: FaDev,
     label: "Dev",
     logoColor: "black",
-    mediaUrl: "https://www.dev.to/arafat4693",
+    mediaUrl: "https://dev.to/gurucharan15",
     info: "Follow me and read my articles on Dev.to",
   },
   {
@@ -94,7 +96,7 @@ export const socialMedia: SocialMedia[] = [
     Icon: FaFacebookF,
     label: "Facebook",
     logoColor: "#3b5998",
-    mediaUrl: "https://www.facebook.com/md.sunny.58910049",
+    mediaUrl: "https://www.facebook.com/guru.charan.tanneeru/",
     info: "Follow me on Facebook",
   },
   {
@@ -102,7 +104,7 @@ export const socialMedia: SocialMedia[] = [
     Icon: AiOutlineGithub,
     label: "Github",
     logoColor: "#171515",
-    mediaUrl: "https://www.github.com/arafat4693",
+    mediaUrl: "https://github.com/gurucharan15",
     info: "Star my projects on Github",
   },
   {
@@ -110,24 +112,24 @@ export const socialMedia: SocialMedia[] = [
     Icon: AiFillLinkedin,
     label: "Linkedin",
     logoColor: "#0072b1",
-    mediaUrl: "https://www.linkedin.com",
+    mediaUrl: "https://www.linkedin.com/in/gurucharan-tanneeru-a6488b193/",
     info: "Let's connect on Linkedin",
   },
   {
     id: 5,
-    Icon: FaDiscord,
-    label: "Discord",
+    Icon: FaInstagram,
+    label: "Instagram",
     logoColor: "#5865f2",
-    mediaUrl: "https://www.discord.com",
-    info: "Let's chat on Discord. My username - Tyrant#4185",
+    mediaUrl: "https://www.instagram.com/guru.charan.tanneeru/",
+    info: "Catch me on Instagram",
   },
   {
     id: 6,
-    Icon: SiFiverr,
-    label: "Fiverr",
+    Icon: FaTwitter,
+    label: "Twitter",
     logoColor: "#00b22d",
-    mediaUrl: "https://www.fiverr.com/sunnyislam990",
-    info: "Hire me on fiverr as freelancer",
+    mediaUrl: "https://twitter.com/T_GuruCharan",
+    info: "Follow me on Twitter",
   },
 ]
 
