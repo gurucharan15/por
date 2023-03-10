@@ -23,18 +23,18 @@ export default function Skills() {
     <>
       <ul className="grid grid-cols-1 sm:grid-cols-2">
         <li className="py-6 px-12">
-          <IconTitle title="back-end" Icon={FaReact} />
+          <IconTitle title="Skills" Icon={FaReact} />
           <BackEnd backend={data?.skills[0].backEnd} />
         </li>
         <li className="py-6 px-12 relative vCustomLine sm:before:block before:hidden before:left-0">
-          <IconTitle title="knowledge" Icon={FaReact} />
+          <IconTitle title="Certifications" Icon={FaReact} />
           <Knowledge knowledge={data?.skills[0].knowledge} />
         </li>
       </ul>
 
       <ul className="grid sm:grid-cols-2 grid-cols-1">
         <li className="pt-6 px-12">
-          <IconTitle title="font-end" Icon={FaReact} />
+          <IconTitle title="Programming Languages" Icon={FaReact} />
           <FrontEnd frontend={data?.skills[0].frontEnd} />
         </li>
         <li className="pt-6 px-12 relative vCustomLine before:left-0 sm:before:block before:hidden">
