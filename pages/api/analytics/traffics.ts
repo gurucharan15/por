@@ -3,12 +3,12 @@ import type { NextApiRequest, NextApiResponse } from "next"
 import { BetaAnalyticsDataClient } from "@google-analytics/data"
 
 // 👇 Setting PropertyId
-const propertyId = process.env.NEXT_PUBLIC_GA_PROPERTY_ID
+const propertyId = "gurucharan-1678552370586"
 
 const analyticsDataClient = new BetaAnalyticsDataClient({
   credentials: {
-    client_email: process.env.NEXT_PUBLIC_GA_CLIENT_EMAIL,
-    private_key: process.env.NEXT_PUBLIC_GA_PRIVATE_KEY?.replace(/\n/gm, "\n"), // replacing is necessary
+    client_email: "starting-account-ujnsaglkzpxz@gurucharan-1678552370586.iam.gserviceaccount.com",
+    private_key: "bc24a553b206d55185cacbc3e2878f9f05b62654", // replacing is necessary
     // private_key: pk.replace(/\n/gm, "\n"), // replacing is necessary
   },
 })
