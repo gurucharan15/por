@@ -12,9 +12,9 @@ export default function Location() {
         className="w-full h-96"
       ></iframe>
       <ul className="grid grid-cols-1 mt-10 location sm:grid-cols-2 gap-y-2">
-        <MyInfo field="address" value="Stockholm, Sweden" />
-        <MyInfo field="email" value="islamarafat171@gmail.com" />
-        <MyInfo field="phone" value="+123 654 78900" />
+        <MyInfo field="address" value="Vijayawada, India" />
+        <MyInfo field="email" value="admin@gurucharan.dev" />
+        <MyInfo field="phone" value="+91 7995162550" />
         <MyInfo field="freelance" value="Available" />
       </ul>
     </div>
