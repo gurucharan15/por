@@ -9,14 +9,14 @@ function MyApp({ Component, pageProps }: AppProps) {
     <ApolloProvider client={client}>
       <Script
         strategy="afterInteractive"
-        src="https://www.googletagmanager.com/gtag/js?id=G-KJF12P63GL"
+        src="https://www.googletagmanager.com/gtag/js?id=G-ZEC5GHV6Q2"
       />
       <Script id="google-analytics" strategy="afterInteractive">
         {`
           window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}
           gtag('js', new Date());
-          gtag('config', 'G-KJF12P63GL');
+          gtag('config', 'G-ZEC5GHV6Q2');
         `}
       </Script>
 
