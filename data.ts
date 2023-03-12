@@ -60,7 +60,7 @@ export const menus: MenuData[] = [
     id: 4,
     label: "blog",
     Icon: FaRegNewspaper,
-    Component: DevBlogs,
+    Component: Blogs,
   },
   {
     id: 5,
@@ -198,15 +198,15 @@ export const quoteData: TestimonialData = {
 
 export const statisticsData: StatisticsData[] = [
   {
-    title: "stack",
-    info: "MERN or T3",
+    title: "Developer",
+    info: "Mean Stack",
   },
   {
     title: "projects",
-    info: "70+",
+    info: "15+",
   },
   {
     title: "clients",
-    info: "40+",
+    info: "10+",
   },
 ]

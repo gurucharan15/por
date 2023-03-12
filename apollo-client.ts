@@ -12,7 +12,7 @@ const httpLink = createHttpLink({
 })
 
 const authLink = setContext((_, { headers }) => {
-  const token = process.env.NEXT_PUBLIC_HYGRAPH_AUTH_TOKEN
+  const token = "https://api-ap-south-1.hygraph.com/v2/clel2vhda1eg901uo33gk1e8i/master/upload"
   // return the headers to the context so httpLink can read them
   return {
     headers: {
