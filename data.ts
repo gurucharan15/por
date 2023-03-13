@@ -9,6 +9,7 @@ import {
   FaRegUser,
   FaInstagram,
   FaTwitter,
+  FaIdBadge,
 } from "react-icons/fa"
 import { FiSend } from "react-icons/fi"
 import { MdComputer, MdDashboard } from "react-icons/md"
@@ -130,6 +131,14 @@ export const socialMedia: SocialMedia[] = [
     logoColor: "#00b22d",
     mediaUrl: "https://twitter.com/T_GuruCharan",
     info: "Follow me on Twitter",
+  },
+  {
+    id: 7,
+    Icon: FaIdBadge,
+    label: "Credly",
+    logoColor: "#00b22d",
+    mediaUrl: "https://www.credly.com/users/gurucharan-tanneeru/badges",
+    info: "You can verify my Achivements",
   },
 ]
 
