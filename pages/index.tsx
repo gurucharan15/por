@@ -43,6 +43,7 @@ const Home: NextPage<Props> = ({ profileData }) => {
     <main className="relative flex items-center justify-center min-h-screen home">
       <Head>
         <title>GuruCharan Portfolio</title>
+        <meta property="og:title" content="GuruCharan Portfolio" />
         <meta name="description" content="Are you looking for Front End Developer you are just one click ahead" />
         <meta name="description" content="Are you looking for Back End Developer you are just one click ahead" />
         <meta name="description" content="Are you looking for WebSite Developer you are just one click ahead" />
