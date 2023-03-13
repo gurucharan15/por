@@ -190,10 +190,10 @@ export const clients: ClientData[] = [
 export const quoteData: TestimonialData = {
   id: "quote",
   quote:
-    "Any fool can write code that a computer can understand. Good programmers write code that humans can understand.",
-  userName: "Martin Fowler",
-  userProfession: "Software Developer",
-  userImage: { url: "/images/martin.jpg" },
+    "Most good programmers do programming not because they expect to get paid or get adulation by the public, but because it is fun to program.",
+  userName: "Linus Torvalds",
+  userProfession: "Inventor of GIT, Linux",
+  userImage: { url: "/images/linus.jpeg" },
 }
 
 export const statisticsData: StatisticsData[] = [
