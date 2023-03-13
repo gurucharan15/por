@@ -4,7 +4,7 @@ export default function Location() {
   return (
     <div className="p-12">
       <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d260534.52747512204!2d17.701880006374193!3d59.32584138311499!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465f763119640bcb%3A0xa80d27d3679d7766!2sStockholm!5e0!3m2!1sen!2sse!4v1666978319596!5m2!1sen!2sse"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30696112.08126717!2d64.43848300685325!3d20.088775406435456!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30635ff06b92b791%3A0xd78c4fa1854213a6!2sIndia!5e0!3m2!1sen!2sin!4v1678685496653!5m2!1sen!2sin"
         style={{ border: 0 } as React.CSSProperties}
         allowFullScreen={false}
         loading="lazy"
