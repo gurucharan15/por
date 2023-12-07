@@ -7,7 +7,7 @@ import ProfileCard from "../components/ProfileCard"
 import "react-loading-skeleton/dist/skeleton.css"
 import client, { currentMenu, currentWork, showMenu } from "../apollo-client"
 import profileOperations from "../graphqlOperations/profile"
-import { ProfileData } from   types"
+import { ProfileData } from "../types"
 import { useReactiveVar } from "@apollo/client"
 import { menus } from "../data"
 import { AnimatePresence, motion } from "framer-motion"
@@ -53,13 +53,7 @@ const Home: NextPage<Props> = ({ profileData }) => {
         <meta name="keywords" content="Fair, reasonable price, effective production, on-time, deployment, web designs, SEO, websites, version control, prototyping, architectural design, High-load, Front end, back-end, database, full stack developer, frontend developer, backend developer"/>
         <meta name="description" content="GuruCharan Dev" />
         <meta name="description" content="Guru Charan Dev" />
-        <meta name="keywords" content="gurucharan"/>
-        <meta name="keywords" content="gurucharan dev"/>
-        <meta name="keywords" content="gurucharan developer,guru charan dev, guru charan developer, gurucharan tanneeru, guru charan tanneeru"/>
-        <meta name="keywords" content="guru charan dev"/>
-        <meta name="keywords" content="guru charan developer"/>
-        <meta name="keywords" content="gurucharan tanneeru"/>
-        <meta name="keywords" content="guru charan tanneeru"/>
+        <meta name="keywords" content="gurucharan, gurucharan dev, gurucharan developer,guru charan dev, guru charan developer, gurucharan tanneeru, guru charan tanneeru"/>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
         <meta name="language" content="English" />
         <meta property="og:title" content="GuruCharan Blog" />
