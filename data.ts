@@ -18,7 +18,7 @@ import {
   SiFirebase,
   SiFiverr,
   SiNextdotjs,
-  SiStubhub,
+  SiShazam,
   SiNodedotjs,
   SiGooglecloud,
 } from "react-icons/si"
@@ -147,7 +147,7 @@ export const services: ServiceData[] = [
   {
     id: 1,
     title: "Smartsheet-Expert",
-    Icon: SiStubhub,
+    Icon: SiShazam,
     description:
       "Become a skilled Smartsheet expert, optimizing workflows, collaborating on data-driven projects, and enhancing productivity through expert use of Smartsheet functionalities.",
   },
