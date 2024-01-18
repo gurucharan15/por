@@ -18,6 +18,7 @@ import {
   SiFirebase,
   SiFiverr,
   SiNextdotjs,
+  SiStubhub,
   SiNodedotjs,
   SiGooglecloud,
 } from "react-icons/si"
@@ -145,17 +146,17 @@ export const socialMedia: SocialMedia[] = [
 export const services: ServiceData[] = [
   {
     id: 1,
-    title: "Front-end",
-    Icon: SiNextdotjs,
+    title: "Smartsheet-Expert",
+    Icon: SiStubhub,
     description:
-      "Modern and mobile-ready website that will help you reach everyone that need it.",
+      "Become a skilled Smartsheet expert, optimizing workflows, collaborating on data-driven projects, and enhancing productivity through expert use of Smartsheet functionalities.",
   },
   {
     id: 2,
-    title: "Back-end",
+    title: "Full-Stack",
     Icon: SiNodedotjs,
     description:
-      "Back-end with a SQL and API written in a standard method.",
+      "Design a modern, mobile-ready website with a back-end utilizing SQL and a standardized API to efficiently reach and assist a broad audience.",
   },
   {
     id: 3,
@@ -202,7 +203,7 @@ export const quoteData: TestimonialData = {
     "Most good programmers do programming not because they expect to get paid or get adulation by the public, but because it is fun to program.",
   userName: "Linus Torvalds",
   userProfession: "Inventor of GIT, Linux",
-  userImage: { url: "/images/linus.jpeg" },
+  userImage: { url: "images/linus.jpeg" },
 }
 
 export const statisticsData: StatisticsData[] = [
