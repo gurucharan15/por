@@ -8,6 +8,7 @@ import {
   FaRegNewspaper,
   FaRegUser,
   FaInstagram,
+  FaUserTie,
   FaTwitter,
   FaIdBadge,
 } from "react-icons/fa"
@@ -19,7 +20,6 @@ import {
   SiFiverr,
   SiNextdotjs,
   SiShazam,
-  FaUserTie,
   SiNodedotjs,
   SiGooglecloud,
 } from "react-icons/si"
