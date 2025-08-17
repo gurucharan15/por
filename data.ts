@@ -15,6 +15,7 @@ import { FiSend } from "react-icons/fi"
 import { MdComputer, MdDashboard } from "react-icons/md"
 import {
   SiFigma,
+  SiDatabase,
   SiFirebase,
   SiFiverr,
   SiNextdotjs,
