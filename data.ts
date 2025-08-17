@@ -149,28 +149,28 @@ export const services: ServiceData[] = [
     title: "Smartsheet-Expert",
     Icon: SiShazam,
     description:
-      "Become a skilled Smartsheet expert, optimizing workflows, collaborating on data-driven projects, and enhancing productivity through expert use of Smartsheet functionalities.",
+      "A skilled Smartsheet expert, optimizing workflows, collaborating on data-driven projects, and enhancing productivity through expert use of Smartsheet functionalities.",
   },
   {
     id: 2,
+    title: "Data Analyst Consultant",
+    Icon: SiDatabase,
+    description:
+      "A Data Analyst Consultant helps organizations make data-driven decisions by analyzing complex datasets and providing actionable insights for business growth.",
+  },
+  {
+    id: 3,
     title: "Full-Stack",
     Icon: SiNodedotjs,
     description:
       "Design a modern, mobile-ready website with a back-end utilizing SQL and a standardized API to efficiently reach and assist a broad audience.",
   },
   {
-    id: 3,
+    id: 4,
     title: "UI/UX design",
     Icon: SiFigma,
     description:
       "Modern user Interface trends with a highly professional and unique design.",
-  },
-  {
-    id: 4,
-    title: "Cloud Computing",
-    Icon: SiGooglecloud,
-    description:
-      "Make fully working applications that work and run based on the cloud.",
   },
 ]
 
