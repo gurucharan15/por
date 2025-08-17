@@ -15,11 +15,11 @@ import { FiSend } from "react-icons/fi"
 import { MdComputer, MdDashboard } from "react-icons/md"
 import {
   SiFigma,
-  SiDatabase,
   SiFirebase,
   SiFiverr,
   SiNextdotjs,
   SiShazam,
+  FaUserTie,
   SiNodedotjs,
   SiGooglecloud,
 } from "react-icons/si"
@@ -155,7 +155,7 @@ export const services: ServiceData[] = [
   {
     id: 2,
     title: "Data Analyst Consultant",
-    Icon: SiDatabase,
+    Icon: FaUserTie,
     description:
       "A Data Analyst Consultant helps organizations make data-driven decisions by analyzing complex datasets and providing actionable insights for business growth.",
   },
